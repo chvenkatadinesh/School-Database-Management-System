@@ -8,5 +8,4 @@ import pro.schoolDatabaseManagementSystem.entity.Student;
 public interface StudentRepo extends JpaRepository<Student,Integer>{
 
 
-
 }

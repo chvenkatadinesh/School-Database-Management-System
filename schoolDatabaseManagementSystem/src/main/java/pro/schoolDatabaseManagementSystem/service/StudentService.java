@@ -1,7 +1,6 @@
 package pro.schoolDatabaseManagementSystem.service;
 
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 import pro.schoolDatabaseManagementSystem.entity.Student;
 
 import java.util.List;

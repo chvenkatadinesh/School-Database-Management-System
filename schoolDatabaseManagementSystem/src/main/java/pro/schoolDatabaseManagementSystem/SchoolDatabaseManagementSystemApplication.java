@@ -8,7 +8,5 @@ public class SchoolDatabaseManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SchoolDatabaseManagementSystemApplication.class, args);
-
 	}
-
 }

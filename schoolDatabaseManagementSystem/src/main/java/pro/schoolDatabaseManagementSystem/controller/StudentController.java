@@ -6,6 +6,7 @@ import pro.schoolDatabaseManagementSystem.entity.Student;
 import pro.schoolDatabaseManagementSystem.repo.StudentRepo;
 import pro.schoolDatabaseManagementSystem.service.StudentService;
 
+
 @RestController
 public class StudentController {
 
@@ -30,7 +31,7 @@ public class StudentController {
 
     @DeleteMapping("/students/delete/{id}")
     public void  deleteStudent(@PathVariable int id){
-        Student stu=studentService.deleteStudent(studentRepo.findById(id).get());
-        studentRepo.delete(stu);
+        Student std=studentService.deleteStudent(studentRepo.findById(id).get());
+        studentRepo.delete(std);
     }
 }
